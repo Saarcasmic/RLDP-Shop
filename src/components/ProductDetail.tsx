@@ -21,15 +21,15 @@ export default function ProductDetail() {
 
   return (
     <section className="py-24 bg-white">
-      <Link
-        to="/"
-        className="fixed top-8 left-8 flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
-      >
-        <ArrowLeft className="w-5 h-5 text-amber-600 group-hover:-translate-x-1 transition-transform" />
-        <span className="text-gray-700">Back to Home</span>
-      </Link>
-
       <div className="container mx-auto px-4">
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group mb-8"
+        >
+          <ArrowLeft className="w-5 h-5 text-amber-600 group-hover:-translate-x-1 transition-transform" />
+          <span className="text-gray-700">Back to Home</span>
+        </Link>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Image Section */}
           <div className="relative group">
