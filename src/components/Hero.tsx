@@ -14,7 +14,7 @@ export default function Hero() {
 
           <div className="mb-12 transform hover:scale-105 transition-transform duration-500">
             <img 
-              src="/PREMIUM_-_QUALITY__1_-removebg-preview (1).png" 
+              src="https://i.ibb.co/nLVMJXJ/PREMIUM-QUALITY-1-removebg-preview-1.png" 
               alt="Premium Quality Products"
               className="max-w-md mx-auto rounded-lg drop-shadow-2xl"
             />

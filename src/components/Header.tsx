@@ -41,7 +41,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <img 
-              src="/Web_logo.png"
+              src="https://i.ibb.co/KFp4BCG/web-logo.png"
               alt="Logo" 
               className="h-12 w-auto"
             />

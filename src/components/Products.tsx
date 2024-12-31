@@ -29,7 +29,7 @@ export const products: Product[] = [
       form: 'Powder',
       packaging: ['1kg containers', '500g containers', 'Bulk packaging'],
       minOrder: '100 kg',
-      image: '/hing.jpg'
+      image: 'https://i.ibb.co/HYMhnSH/hing.jpg'
     }
   },
   {
@@ -43,7 +43,7 @@ export const products: Product[] = [
       color: 'Crystal White',
       packaging: ['50kg bags', '25kg bags', 'Bulk containers'],
       minOrder: '1000 kg',
-      image: '/Sugar.jpg'
+      image: 'https://i.ibb.co/TwXnKTw/Sugar.jpg'
     }
   },
   {
@@ -57,7 +57,7 @@ export const products: Product[] = [
       aging: '2 years',
       packaging: ['25kg bags', '10kg bags', 'Bulk packaging'],
       minOrder: '500 kg',
-      image: '/rice.jpg'
+      image: 'https://i.ibb.co/zn417JD/rice.jpg'
     }
   },
   {
@@ -71,7 +71,7 @@ export const products: Product[] = [
       moisture: '< 14%',
       packaging: ['50kg bags', '25kg bags', 'Bulk containers'],
       minOrder: '500 kg',
-      image: '/chickpea.jpg'
+      image: 'https://i.ibb.co/Wv6CfvL/chickpea.jpg'
     }
   }
 ];
