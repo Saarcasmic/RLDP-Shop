@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import WhyChooseUs from './components/WhyChooseUs';
@@ -13,10 +13,13 @@ import BlogPost from './components/Blog';
 import Header from './components/Header';
 
 function App() {
+  const location = useLocation();
+  const showHeader = !location.pathname.includes('/products/') && !location.pathname.includes('/blog/');
+
   return (
     <Router>
       <div className="min-h-screen">
-        <Header />
+        {showHeader && <Header />}
         <Routes>
           <Route path="/" element={
             <>
