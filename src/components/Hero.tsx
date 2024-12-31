@@ -16,7 +16,7 @@ export default function Hero() {
             <img 
               src="https://i.ibb.co/nLVMJXJ/PREMIUM-QUALITY-1-removebg-preview-1.png" 
               alt="Premium Quality Products"
-              className="max-w-md mx-auto rounded-lg drop-shadow-2xl"
+              className="w-full max-w-md mx-auto rounded-lg drop-shadow-2xl px-4"
             />
           </div>
 
