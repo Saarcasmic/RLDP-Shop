@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { Info } from 'lucide-react';
 import { Product } from '../../types/product';
+import { useNavigate } from 'react-router-dom';
 
 type ProductCardProps = Product;
 
 export default function ProductCard({ name, description, icon: Icon, slug, specs }: ProductCardProps) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <div 
@@ -29,7 +31,7 @@ export default function ProductCard({ name, description, icon: Icon, slug, specs
       {/* Card */}
       <div 
         className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-[400px] h-[300px] cursor-pointer overflow-hidden"
-        onClick={() => window.location.href = `/products/${slug}`}
+        onClick={() => navigate(`/products/${slug}`)}
       >
         {/* Background Image */}
         <div className="absolute inset-0">
