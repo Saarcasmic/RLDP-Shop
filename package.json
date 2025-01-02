@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cpx sitemap.xml dist/",
+    "build": "vite build && cpx \"{sitemap.xml,googlee27bc135baa7a825.html}\" dist/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
